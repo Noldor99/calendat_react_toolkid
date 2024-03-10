@@ -11,11 +11,7 @@ import { holidayData } from "@/data"
 
 const Home = () => {
   const { monthIndex, yera } = useTypedSelector((state) => state.calendar)
-  const {
-    data: holiday,
-    isFetched,
-    refetch,
-  } = useGetHoliday({
+  const { data: holiday, refetch } = useGetHoliday({
     year: yera,
   })
   console.log(holiday)

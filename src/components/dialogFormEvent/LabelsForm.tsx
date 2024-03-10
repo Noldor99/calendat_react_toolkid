@@ -10,7 +10,7 @@ interface LabelsFormProps {
 }
 
 const LabelsForm = ({ name, label }: LabelsFormProps) => {
-  const { setValue, watch } = useFormContext()
+  const { setValue } = useFormContext()
   const [selectedLabel, setSelectedLabel] = useState(
     label ? label : labelsClasses[0]
   )

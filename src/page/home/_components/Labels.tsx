@@ -1,4 +1,3 @@
-import React from "react"
 import { useTypedDispatch } from "@/hook/useTypedDispatch"
 import { useTypedSelector } from "@/hook/useTypedSelector"
 

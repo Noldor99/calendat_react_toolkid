@@ -13,7 +13,7 @@ import { EventSchema, IEventSchema } from "@/shema/eventSchema"
 import { useTypedDispatch } from "@/hook/useTypedDispatch"
 import dayjs from "dayjs"
 import LabelsForm from "./LabelsForm"
-import { IEvent } from "@/store/slice/eventSlice"
+import { IEvent } from "@/types/event"
 
 type EventFormPropsType = {
   event?: IEvent

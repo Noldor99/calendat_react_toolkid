@@ -1,5 +1,5 @@
+import { IEvent } from "@/types/event";
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { IEvent } from "./eventSlice";
 
 export interface IFilterLabel {
   label: string;
