@@ -10,7 +10,7 @@ export interface ApiHoliday {
 }
 
 export const apiHoliday: ApiHoliday = {
-  getAll: (year) => api.get(`http://localhost:8080/https://date.nager.at/api/v3/PublicHolidays/${year}/UA`).then(qw),
+  getAll: (year) => api.get(`https://date.nager.at/api/v3/PublicHolidays/${year}/UA`).then(qw),
 };
 
 
